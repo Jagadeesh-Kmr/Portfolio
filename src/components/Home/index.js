@@ -234,7 +234,7 @@ const Home = () => {
                     From developing sleek UI components to integrating REST APIs, I focus on delivering high-quality, optimized, and accessible web solutions.</p>
                     </div>
                     <div className="resume-div">
-                    <a href="https://drive.google.com/file/d/1q2Cre-HiyCKUI0pWcmrSaeAQ3cReIG2f/view?usp=sharing" 
+                    <a href="https://drive.google.com/file/d/1MN_5UVTPRVeexq85QIBfCfO4_a4bwidA/view?usp=sharing" 
                     target="_blank"
                     rel="noopener noreferrer"
                     className="resume-link">
