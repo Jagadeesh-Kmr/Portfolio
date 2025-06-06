@@ -11,7 +11,6 @@ Welcome to my **Personal Portfolio Website**, where I showcase my skills, projec
 
 ## 🛠 Technologies Used
 - **Frontend:** React.js, JavaScript, HTML, CSS  
-- **UI Framework:** Tailwind CSS / Styled Components (If used)  
 - **Icons:** React Icons  
 - **Form Handling:** Web3Forms
   
