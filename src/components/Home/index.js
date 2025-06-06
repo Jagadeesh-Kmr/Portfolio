@@ -60,7 +60,7 @@ const Home = () => {
         return;
       }
   
-      setIsSubmitted(true);
+      setIsSubmitted(!isSubmitted);
   
       // Submit the form
       fetch("https://api.web3forms.com/submit", {
@@ -76,8 +76,6 @@ const Home = () => {
         .catch(() => alert("Something went wrong. Please try again."));
     };
   
-
-
 
   useEffect(() => {
     const handleScroll = () => {
@@ -124,15 +122,15 @@ const Home = () => {
 
     const renderProfileView = () => (
       <div className={profileClassName}>
-                <GiCancel className="cancel-logo" onClick={onClickProfile} />
-                <button type="button" className="profile-btn">
-                  <img
-                    src="https://res.cloudinary.com/dakmxu3dl/image/upload/v1728112767/Jagadeesh_Image_j9mbse.jpg"
-                    alt="profile"
-                    className="profile-img-view"
-                  />
-                </button>
-                <p className="img-msg">Frontend Developer</p>
+          <GiCancel className="cancel-logo" onClick={onClickProfile} />
+          <button type="button" className="profile-btn">
+          <img
+            src="https://res.cloudinary.com/dakmxu3dl/image/upload/v1728112767/Jagadeesh_Image_j9mbse.jpg"
+            alt="profile"
+            className="profile-img-view"
+          />
+          </button>
+          <p className="img-msg">Frontend Developer</p>
       </div>
     );
 
@@ -234,7 +232,7 @@ const Home = () => {
                     From developing sleek UI components to integrating REST APIs, I focus on delivering high-quality, optimized, and accessible web solutions.</p>
                     </div>
                     <div className="resume-div">
-                    <a href="https://drive.google.com/file/d/1sXVdbv7Oby_Ri3nkRrZAB426AMm9Tdlo/view?usp=sharing" 
+                    <a href="https://drive.google.com/file/d/15SRKmF_y9CWCybAY2TEDtrYFbiJy9gaj/view" 
                     target="_blank"
                     rel="noopener noreferrer"
                     className="resume-link">
